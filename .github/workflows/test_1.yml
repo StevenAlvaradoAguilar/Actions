@@ -7,3 +7,10 @@ jobs:
         steps:
             - name: hola Mundo
               run: echo "hola mundo"
+
+    others: 
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: LS
+              run: -ls -a 
